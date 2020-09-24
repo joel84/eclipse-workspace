@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="551.0" prefWidth="658.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <LineChart fx:id="lineChart" layoutX="-6.0" title="LINE CHART">
+        <xAxis>
+          <CategoryAxis label="My X label" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis label="My Y label" side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Button layoutX="360.0" layoutY="475.0" mnemonicParsing="false" onAction="#btn" text="Load Chart" />
+      <Label fx:id="lbl" layoutX="34.0" layoutY="444.0" prefHeight="68.0" prefWidth="217.0" textFill="#b20d0d">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

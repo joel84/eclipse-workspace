@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.WebView?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="application.MainController">
+   <children>
+      <WebView fx:id="webview" layoutX="4.0" layoutY="14.0" prefHeight="468.0" prefWidth="792.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="1.0" />
+      <Button layoutX="57.0" layoutY="542.0" mnemonicParsing="false" onAction="#bt1" text="Load" />
+      <Button layoutX="168.0" layoutY="542.0" mnemonicParsing="false" onAction="#bt2" text="JavaScript" />
+      <Button layoutX="325.0" layoutY="542.0" mnemonicParsing="false" onAction="#bt3" text="Html" />
+      <Button layoutX="446.0" layoutY="542.0" mnemonicParsing="false" onAction="#bt4" text="Reload" />
+   </children>
+</AnchorPane>
